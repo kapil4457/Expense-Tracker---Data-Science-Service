@@ -1,0 +1,5 @@
+/dsenv
+.history
+.env
+dist
+ds_service.egg-info
