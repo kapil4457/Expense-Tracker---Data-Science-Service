@@ -58,7 +58,7 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          cd k8s-manifests
+          cd argocd-k8s-manifests
           git config user.name "Kapil Soni"
           git config user.email "kapilsoni54768161@gmail.com"
           git add .
