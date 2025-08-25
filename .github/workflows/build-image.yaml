@@ -32,7 +32,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: expense-service-jar
+          name: data-science-service-jar
           path: dist/*.gz
 
       - name: Build and push Docker image
